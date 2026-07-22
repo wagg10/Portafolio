@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgp" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1e22"/>
+      <stop offset="1" stop-color="#0b0b0d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgp)"/>
+  <circle cx="650" cy="330" r="200" fill="#f59e0b" opacity="0.08"/>
+  <g transform="translate(560,150)">
+    <path d="M60 20 C60 120, 0 170, -70 180 C-60 90, 0 40, 60 20 Z" fill="#f59e0b" opacity="0.9"/>
+    <path d="M52 34 C20 70, -20 120, -58 168" stroke="#0b0b0d" stroke-width="5" fill="none"/>
+    <path d="M20 66 C36 66, 44 60, 50 46 M-6 100 C10 100, 20 92, 26 78 M-32 134 C-16 134, -6 126, 0 112"
+          stroke="#0b0b0d" stroke-width="4" fill="none"/>
+  </g>
+  <text x="60" y="180" fill="#ffffff" font-size="44" font-weight="700">Detección en Cultivos</text>
+  <text x="60" y="228" fill="#f59e0b" font-size="30" font-weight="700">Deep Learning + Visión</text>
+  <g font-size="18" font-weight="600">
+    <rect x="60" y="280" width="150" height="36" rx="9" fill="#27272a"/>
+    <text x="78" y="304" fill="#e4e4e7">TensorFlow</text>
+    <rect x="224" y="280" width="180" height="36" rx="9" fill="#27272a"/>
+    <text x="242" y="304" fill="#e4e4e7">Banano·Arroz·Café</text>
+    <rect x="418" y="280" width="105" height="36" rx="9" fill="#3a2c0a"/>
+    <text x="434" y="304" fill="#fcd34d">+90 %</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="Segoe UI, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bgi" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1e22"/>
+      <stop offset="1" stop-color="#0b0b0d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgi)"/>
+  <circle cx="650" cy="120" r="190" fill="#f59e0b" opacity="0.08"/>
+  <g transform="translate(520,120)">
+    <line x1="0" y1="0" x2="0" y2="150" stroke="#3f3f46" stroke-width="3"/>
+    <line x1="0" y1="150" x2="220" y2="150" stroke="#3f3f46" stroke-width="3"/>
+    <rect x="30"  y="95"  width="22" height="55" fill="#f59e0b" opacity="0.55"/>
+    <rect x="72"  y="70"  width="22" height="80" fill="#f59e0b" opacity="0.7"/>
+    <rect x="114" y="90"  width="22" height="60" fill="#f59e0b" opacity="0.6"/>
+    <rect x="156" y="40"  width="22" height="110" fill="#f59e0b" opacity="0.85"/>
+    <rect x="198" y="18"  width="22" height="132" fill="#f59e0b"/>
+    <polyline points="41,90 83,66 125,84 167,36 209,14" fill="none" stroke="#fcd34d" stroke-width="4"/>
+    <circle cx="209" cy="14" r="7" fill="#fcd34d"/>
+  </g>
+  <text x="60" y="180" fill="#ffffff" font-size="42" font-weight="700">Gestión de Inversiones</text>
+  <text x="60" y="228" fill="#f59e0b" font-size="30" font-weight="700">Aplicación de escritorio</text>
+  <g font-size="18" font-weight="600">
+    <rect x="60" y="280" width="86" height="36" rx="9" fill="#27272a"/>
+    <text x="82" y="304" fill="#e4e4e7">Java</text>
+    <rect x="160" y="280" width="86" height="36" rx="9" fill="#27272a"/>
+    <text x="176" y="304" fill="#e4e4e7">MySQL</text>
+    <rect x="260" y="280" width="80" height="36" rx="9" fill="#3a2c0a"/>
+    <text x="276" y="304" fill="#fcd34d">MVC</text>
+  </g>
+</svg>
